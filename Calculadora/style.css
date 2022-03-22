@@ -1,0 +1,71 @@
+body {
+    background: linear-gradient(#726f6f, #FEFEFE);
+    font-family: sans-serif;
+    
+}
+
+.caixa {
+    width: 500px;
+    margin: auto;
+    position: relative;
+}
+
+.principal {
+    background: #747070;
+    width: 500px;
+    margin: 0 auto;
+    display: inline-block;
+    position: relative;
+    border: 1px solid black;
+    box-sizing: border-box;
+    box-shadow: 5px 5px 5px black;
+
+}
+
+.numeroDigitado {
+    text-align: right;
+    display: inline-block;
+    padding: 10px;
+    font-size: 25px;
+    width: 61.5%;
+    height: 50px;
+    margin: 3% 0 0 17%;
+    border-radius: 5px;
+    background: #747070;
+    color: white;
+}
+
+
+.numeracao{
+    display: inline-block;
+    width: 67%;
+    margin: 3% 16.5%;
+
+}
+
+.itens{
+    width: 80px;
+    height: 80px;
+    box-shadow: 1px 1px 1px black;
+    font-size: 20px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.itens:hover {
+    background: #888484;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+table td {
+    text-align: right;
+}
+
+footer p {
+    text-align: center;
+    margin: 4% 0;
+}
+
+
+
